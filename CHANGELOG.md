@@ -247,6 +247,10 @@ All notable changes to SkillOpt are documented here. This project adheres to
 - Add focused coverage for the DocVQA ANLS evaluator, including the 0.5
   threshold boundary, the maximum over gold answers, and the accepted gold
   answer formats (thanks @Shizoqua).
+- Add focused coverage for the SpreadsheetBench evaluator's official comparison
+  rules: 2-decimal quantization, numeric strings, Excel date serials, blank
+  cells, column and range parsing, and multi-sheet, multi-range comparison
+  (thanks @Shizoqua).
 
 ### Acknowledgements 🙏
 Thank you to the contributors behind this unreleased work:
